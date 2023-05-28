@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A375BFB22A238DD9000861CD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A375BFB12A238DD9000861CD /* main.c */; };
+		A375BFB62A238DE6000861CD /* libInteractiveAudioLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B532142A22B48800A93E95 /* libInteractiveAudioLib.a */; };
+		A375BFB92A238DF0000861CD /* libInteractiveAudioLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B532142A22B48800A93E95 /* libInteractiveAudioLib.a */; };
+		A3B5321D2A22B4C400A93E95 /* InteractiveAudioLib.c in Sources */ = {isa = PBXBuildFile; fileRef = A3B5321C2A22B4C400A93E95 /* InteractiveAudioLib.c */; };
+		A3B532252A22BAC200A93E95 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A3B532242A22BAC200A93E95 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A375BFB72A238DE6000861CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3B5320C2A22B48800A93E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3B532132A22B48800A93E95;
+			remoteInfo = InteractiveAudioLib;
+		};
+		A375BFBA2A238DF0000861CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3B5320C2A22B48800A93E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3B532132A22B48800A93E95;
+			remoteInfo = InteractiveAudioLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A375BFAD2A238DD9000861CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A3B532202A22BAC200A93E95 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A375BFAF2A238DD9000861CD /* InteractiveAudioLibTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InteractiveAudioLibTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		A375BFB12A238DD9000861CD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A3B532142A22B48800A93E95 /* libInteractiveAudioLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libInteractiveAudioLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B5321B2A22B4AE00A93E95 /* InteractiveAudioLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractiveAudioLib.h; sourceTree = "<group>"; };
+		A3B5321C2A22B4C400A93E95 /* InteractiveAudioLib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InteractiveAudioLib.c; sourceTree = "<group>"; };
+		A3B532222A22BAC200A93E95 /* InteractiveAudioLibExe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InteractiveAudioLibExe; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B532242A22BAC200A93E95 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A375BFAC2A238DD9000861CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A375BFB62A238DE6000861CD /* libInteractiveAudioLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B532122A22B48800A93E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B5321F2A22BAC200A93E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A375BFB92A238DF0000861CD /* libInteractiveAudioLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A375BFB02A238DD9000861CD /* InteractiveAudioLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				A375BFB12A238DD9000861CD /* main.c */,
+			);
+			path = InteractiveAudioLibTests;
+			sourceTree = "<group>";
+		};
+		A3B5320B2A22B48800A93E95 = {
+			isa = PBXGroup;
+			children = (
+				A3B532292A22BAC900A93E95 /* InteractiveAudioLib */,
+				A3B532232A22BAC200A93E95 /* InteractiveAudioLibExe */,
+				A375BFB02A238DD9000861CD /* InteractiveAudioLibTests */,
+				A3B532152A22B48800A93E95 /* Products */,
+				A3B5322A2A22BBBE00A93E95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3B532152A22B48800A93E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B532142A22B48800A93E95 /* libInteractiveAudioLib.a */,
+				A3B532222A22BAC200A93E95 /* InteractiveAudioLibExe */,
+				A375BFAF2A238DD9000861CD /* InteractiveAudioLibTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3B532232A22BAC200A93E95 /* InteractiveAudioLibExe */ = {
+			isa = PBXGroup;
+			children = (
+				A3B532242A22BAC200A93E95 /* main.c */,
+			);
+			path = InteractiveAudioLibExe;
+			sourceTree = "<group>";
+		};
+		A3B532292A22BAC900A93E95 /* InteractiveAudioLib */ = {
+			isa = PBXGroup;
+			children = (
+				A3B5321C2A22B4C400A93E95 /* InteractiveAudioLib.c */,
+				A3B5321B2A22B4AE00A93E95 /* InteractiveAudioLib.h */,
+			);
+			path = InteractiveAudioLib;
+			sourceTree = "<group>";
+		};
+		A3B5322A2A22BBBE00A93E95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A3B532102A22B48800A93E95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A375BFAE2A238DD9000861CD /* InteractiveAudioLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A375BFB52A238DD9000861CD /* Build configuration list for PBXNativeTarget "InteractiveAudioLibTests" */;
+			buildPhases = (
+				A375BFAB2A238DD9000861CD /* Sources */,
+				A375BFAC2A238DD9000861CD /* Frameworks */,
+				A375BFAD2A238DD9000861CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A375BFB82A238DE6000861CD /* PBXTargetDependency */,
+			);
+			name = InteractiveAudioLibTests;
+			productName = InteractiveAudioLibTests;
+			productReference = A375BFAF2A238DD9000861CD /* InteractiveAudioLibTests */;
+			productType = "com.apple.product-type.tool";
+		};
+		A3B532132A22B48800A93E95 /* InteractiveAudioLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B532182A22B48800A93E95 /* Build configuration list for PBXNativeTarget "InteractiveAudioLib" */;
+			buildPhases = (
+				A3B532102A22B48800A93E95 /* Headers */,
+				A3B532112A22B48800A93E95 /* Sources */,
+				A3B532122A22B48800A93E95 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InteractiveAudioLib;
+			productName = InteractiveAudioLib;
+			productReference = A3B532142A22B48800A93E95 /* libInteractiveAudioLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A3B532212A22BAC200A93E95 /* InteractiveAudioLibExe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B532262A22BAC200A93E95 /* Build configuration list for PBXNativeTarget "InteractiveAudioLibExe" */;
+			buildPhases = (
+				A3B5321E2A22BAC200A93E95 /* Sources */,
+				A3B5321F2A22BAC200A93E95 /* Frameworks */,
+				A3B532202A22BAC200A93E95 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A375BFBB2A238DF0000861CD /* PBXTargetDependency */,
+			);
+			name = InteractiveAudioLibExe;
+			productName = InteractiveAudioLibExe;
+			productReference = A3B532222A22BAC200A93E95 /* InteractiveAudioLibExe */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3B5320C2A22B48800A93E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A375BFAE2A238DD9000861CD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A3B532132A22B48800A93E95 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A3B532212A22BAC200A93E95 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = A3B5320F2A22B48800A93E95 /* Build configuration list for PBXProject "InteractiveAudioLib" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3B5320B2A22B48800A93E95;
+			productRefGroup = A3B532152A22B48800A93E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3B532132A22B48800A93E95 /* InteractiveAudioLib */,
+				A3B532212A22BAC200A93E95 /* InteractiveAudioLibExe */,
+				A375BFAE2A238DD9000861CD /* InteractiveAudioLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A375BFAB2A238DD9000861CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A375BFB22A238DD9000861CD /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B532112A22B48800A93E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B5321D2A22B4C400A93E95 /* InteractiveAudioLib.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B5321E2A22BAC200A93E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B532252A22BAC200A93E95 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A375BFB82A238DE6000861CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3B532132A22B48800A93E95 /* InteractiveAudioLib */;
+			targetProxy = A375BFB72A238DE6000861CD /* PBXContainerItemProxy */;
+		};
+		A375BFBB2A238DF0000861CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3B532132A22B48800A93E95 /* InteractiveAudioLib */;
+			targetProxy = A375BFBA2A238DF0000861CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A375BFB32A238DD9000861CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A375BFB42A238DD9000861CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3B532162A22B48800A93E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A3B532172A22B48800A93E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A3B532192A22B48800A93E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A3B5321A2A22B48800A93E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A3B532272A22BAC200A93E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3B532282A22BAC200A93E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A375BFB52A238DD9000861CD /* Build configuration list for PBXNativeTarget "InteractiveAudioLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A375BFB32A238DD9000861CD /* Debug */,
+				A375BFB42A238DD9000861CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B5320F2A22B48800A93E95 /* Build configuration list for PBXProject "InteractiveAudioLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B532162A22B48800A93E95 /* Debug */,
+				A3B532172A22B48800A93E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B532182A22B48800A93E95 /* Build configuration list for PBXNativeTarget "InteractiveAudioLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B532192A22B48800A93E95 /* Debug */,
+				A3B5321A2A22B48800A93E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B532262A22BAC200A93E95 /* Build configuration list for PBXNativeTarget "InteractiveAudioLibExe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B532272A22BAC200A93E95 /* Debug */,
+				A3B532282A22BAC200A93E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3B5320C2A22B48800A93E95 /* Project object */;
+}

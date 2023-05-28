@@ -40,10 +40,17 @@ int main(int argc, const char * argv[]) {
     printf("%.*s\n", out_buffer_length, out_buffer);
     get_buffer(&stateMachine, out_buffer, out_buffer_length);
     
+    stateMachine.state.nextClipIndex = 1;
+    
     printf("%.*s\n", out_buffer_length, out_buffer);
     get_buffer(&stateMachine, out_buffer, out_buffer_length);
     
     printf("%.*s\n", out_buffer_length, out_buffer);
+    get_buffer(&stateMachine, out_buffer, out_buffer_length);
     
+    printf("%.*s\n", out_buffer_length, out_buffer);
+    get_buffer(&stateMachine, out_buffer, out_buffer_length);
+    
+    printf("%.*s\n", out_buffer_length, out_buffer);
     return 0;
 }

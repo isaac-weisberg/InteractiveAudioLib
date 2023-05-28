@@ -28,7 +28,6 @@ void get_buffer(interaudio_state_machine* stateMachine,
             return;
         }
         
-        
         int clipLengthThatCanBeWritten = MIN(remainingClipLength, remainingOutBufferSpace);
         int clipLengthToBeWritten = clipLengthThatCanBeWritten;
         
